@@ -25,10 +25,10 @@ module.exports = function(grunt) {
     },
     watch: {
     	files: [
-			'js/edd.min.js',
-			'js/shopp.min.js',
-			'js/woo.min.js',
-			'js/wpec.min.js',
+			'js/edd.js',
+			'js/shopp.js',
+			'js/woo.js',
+			'js/wpec.js',
 			'css/wpcm.css'
 		],
     	tasks: [ 'default' ]
