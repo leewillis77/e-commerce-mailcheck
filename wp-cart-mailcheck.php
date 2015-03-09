@@ -19,9 +19,6 @@ function wpcm_plugins_loaded() {
     if ( class_exists ( 'WP_eCommerce' ) )
         require_once ( 'wp-cart-mailcheck-wpec.php' );
 
-    if ( defined ( 'JIGOSHOP_VERSION' ) )
-        require_once ( 'wp-cart-mailcheck-jigoshop.php' );
-
     if ( class_exists('Woocommerce') )
         require_once ( 'wp-cart-mailcheck-woo.php' );
 
@@ -30,7 +27,7 @@ function wpcm_plugins_loaded() {
 
     if ( class_exists ( 'Easy_Digital_Downloads' ) )
         require_once ( 'wp-cart-mailcheck-edd.php' );
-    
+
 }
 add_action ( 'plugins_loaded', 'wpcm_plugins_loaded');
 

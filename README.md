@@ -1,6 +1,6 @@
 # WordPresss e-Commerce mailcheck
 
-Adds [mailcheck](https://github.com/Kicksend/mailcheck) support for WP e-Commerce, Jigoshop, WooCommerce, Shopp or Easy Digital Downloads to help you get your customer's details right - first time. Find out more at the [plugin homepage](http://plugins.leewillis.co.uk/e-commerce-mailcheck-documentation/mailcheck-wordpress-e-commerce/)
+Adds [mailcheck](https://github.com/Kicksend/mailcheck) support for WP e-Commerce,WooCommerce, Shopp or Easy Digital Downloads to help you get your customer's details right - first time. Find out more at the [plugin homepage](http://plugins.leewillis.co.uk/e-commerce-mailcheck-documentation/mailcheck-wordpress-e-commerce/)
 
 Donate link: http://plugins.leewillis.co.uk/donate/
 
@@ -8,7 +8,6 @@ Donate link: http://plugins.leewillis.co.uk/donate/
 
 1. You *must* already have ONE of the following plugins installed:
     * [WP e-Commerce](http://wordpress.org/extend/plugins/wp-e-commerce/)
-    * [Jigoshop](http://jigoshop.com/)
     * [WooCommerce](http://woothemes.com/woocommerce/)
     * [Shopp](https://shopplugin.net)
     * [Easy Digital Downloads](https://easydigitaldownloads.com/)
