@@ -21,6 +21,9 @@ I picked the most popular WordPress shopping carts to support for the initial re
 
 ## Changelog
 
+### 1.0.5
+* Removed suport for JigoShop
+
 ### 1.0.4
 * Added support for [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/)
 
