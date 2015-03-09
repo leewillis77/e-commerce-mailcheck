@@ -1,16 +1,14 @@
-jQuery(document).ready(function() {
+jQuery( function( $ ) {
+    if ( $( '#wpcm-suggest' ).length < 1 ) {
+        $( 'p#edd-email-wrap' ).append( '<div id="wpcm-suggest"></div>' );
+    }
 
-    if ( jQuery ( '#wpcm-suggest' ).length < 1 )
-        jQuery( 'p#edd-email-wrap' ).append('<div id="wpcm-suggest"></div>');
-
-    jQuery('input#edd-email').on('blur', function() {
-        jQuery ( '#wpcm-suggest' ).html('');
-        jQuery(this).mailcheck({
-          suggested: function(element, suggestion) {
-            jQuery ( '#wpcm-suggest' ).html ( "Did you mean "+suggestion.full+"?");
-          },
+    $( 'input#edd-email' ).on( 'blur', function() {
+        $( '#wpcm-suggest' ).html( '' );
+        $( this ).mailcheck({
+          suggested: function( element, suggestion ) {
+            jQuery ( '#wpcm-suggest' ).html ( 'Did you mean ' + suggestion.full + '?' );
+          }
         });
-
     });
-    
 });
