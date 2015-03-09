@@ -22,7 +22,9 @@ I picked the most popular WordPress shopping carts to support for the initial re
 ## Changelog
 
 ### 1.0.5
-* Removed suport for JigoShop
+* Remove support for JigoShop
+* Use minified JS/CSS - props GaryJones
+* Update mailcheck lib
 
 ### 1.0.4
 * Added support for [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/)
