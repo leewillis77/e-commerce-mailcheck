@@ -8,7 +8,7 @@ jQuery( function( $ ) {
         $( '#wpcm-suggest' ).html( '' );
         $( this ).mailcheck({
           suggested: function( element, suggestion ) {
-            jQuery ( '#wpcm-suggest' ).html ( 'Did you mean ' + suggestion.full + '?' );
+            $( '#wpcm-suggest' ).html( 'Did you mean ' + suggestion.full + '?' );
           }
         });
     });
