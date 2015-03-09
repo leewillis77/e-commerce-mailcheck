@@ -1,4 +1,5 @@
 jQuery( function( $ ) {
+    'use strict';
     if ( $( '#wpcm-suggest' ).length < 1 ) {
         $( 'p#edd-email-wrap' ).append( '<div id="wpcm-suggest"></div>' );
     }
